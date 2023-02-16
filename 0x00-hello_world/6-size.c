@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main() {
 printf("The size of char is %lu bytes\n", sizeof(char));
 printf("The size of short is %lu bytes\n", sizeof(short));
@@ -10,5 +14,5 @@ printf("The size of float is %lu bytes\n", sizeof(float));
 printf("The size of double is %lu bytes\n", sizeof(double));
 printf("The size of long double is %lu bytes\n", sizeof(long double));
 printf("The size of void pointer is %lu bytes\n", sizeof(void *));
-return 0;
+return (0);
 }
