@@ -1,13 +1,17 @@
 #include <stdio.h>
-
-int main() {
-    printf("The beauty of a piece of art is\n");
-    printf("not just in the intricacies of its form,\n");
-    printf("nor the depth of its color,\n");
-    printf("nor the skill of its craftsman.\n");
-    printf("No, the true beauty of a piece of art\n");
-    printf("lies in its ability to stir the soul,\n");
-    printf("to inspire the mind,\n");
-    printf("and to touch the heart.\n");
-    return 0;
+/**
+ * main - Entry point for the program
+ *
+ * This function is the entry point for the program. It performs the following
+ * tasks:
+ *  - Initializes variables
+ *  - Calls other functions
+ *  - Prints output to the console
+ *
+ * Return: 0 on success, non-zero value on error
+ */
+int main(void)
+{
+  printf("with proper grammar, but the outcome is a piece of art,\n");
+  return (0);
 }
