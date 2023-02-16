@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     printf("Roses are red,\n");
     printf("Violets are blue,\n");
