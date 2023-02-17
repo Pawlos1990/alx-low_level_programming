@@ -1,4 +1,3 @@
-Nati, [2/17/2023 11:47 AM]
 C - Variables, if, else, while
 0. Positive anything is better than negative nothing
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
@@ -66,8 +65,6 @@ You are not allowed to use any variable of type char
 10. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 Write a program that prints all possible different combinations of two digits.
 Numbers must be separated by ,, followed by a space
-
-Nati, [2/17/2023 11:47 AM]
 The two digits must be different
 01 and 10 are considered the same combination of the two digits 0 and 1
 Print only the smallest combination of two digits
