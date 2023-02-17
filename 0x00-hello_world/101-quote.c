@@ -1,7 +1,14 @@
+#include <stdio.h>
 #include <unistd.h>
 
-int main(void) {
-    char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(2, message, sizeof(message)-1); // sizeof(message)-1 to exclude null terminator
-    return 1;
+/**
+ * main - Entry point
+ *
+ * Return: Always 1 (Success)
+ */
+int main(void)
+{
+char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(STDERR_FILENO, str, 59);
+return (1);
 }

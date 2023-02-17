@@ -1,13 +1,2 @@
 #!/bin/bash
-
-# Set the C file name
-CFILE="main.c"
-
-# Extract the base file name without extension
-BASENAME=$(basename "$CFILE" .c)
-
-# Compile the C file and generate the assembly code
-gcc -S -masm=intel "$CFILE" -o "$BASENAME.s"
-
-# Print a success message
-echo "Assembly code generated and saved in $BASENAME.s"
+gcc -S -masm=intel $CFILE
