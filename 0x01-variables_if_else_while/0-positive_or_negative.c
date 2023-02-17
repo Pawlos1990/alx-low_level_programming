@@ -1,15 +1,17 @@
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
-    srand(time(nullptr));
-    int n = rand() % RAND_MAX - RAND_MAX / 2;
-    std::cout << n << std::endl;
+    srand(time(NULL));  // Seed the random number generator
+    int n = rand() % 201 - 100;  // Generate a random integer between -100 and 100
+    printf("%d\n", n);  // Print the random integer
     if (n > 0) {
-        std::cout << "is positive" << std::endl;
+        printf("is positive\n");
     } else if (n == 0) {
-        std::cout << "is zero" << std::endl;
+        printf("is zero\n");
     } else {
-        std::cout << "is negative" << std::endl;
+        printf("is negative\n");
     }
     return 0;
 }
