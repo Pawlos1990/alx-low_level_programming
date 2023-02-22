@@ -1,18 +1,23 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
+ * jack_bauer- prints every minute of the day
+*/
 
-    print_last_digit(98);
-    print_last_digit(0);
-    r = print_last_digit(-1024);
-    _putchar('0' + r);
-    _putchar('\n');
-    return (0);
+void jack_bauer(void)
+{
+	int min, hr;
+
+	for (hr = 0; hr <= 23; ++hr)
+	{
+		for (min = 0; min <= 59; ++min)
+		{
+			_putchar((hr / 10) + 48);
+			_putchar((hr % 10) + 48);
+			_putchar(':');
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
+			_putchar('\n');
+		}
+	}
 }
