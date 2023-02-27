@@ -1,35 +1,30 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - program that generates random valid
- * passwords for the program 101-crackme
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-  int pass[100];
-  int i, sum, n;
+    int nb;
 
-  sum = 0;  
-
-  srand(time(NULL));
-
-  for (i = 0; i < 100; i++)
-  {
-    pass[i] = rand() % 78;
-    sum += (pass[i] + '0');
-    putchar(pass[i] + '0');
-    if ((2772 - sum) - '0' < 78)
-    {
-      n = 2772 - sum - '0';
-      sum += n;
-      putchar(n + '0');
-      break;
-    }
-  }
-
-  return (0);
+    nb = _atoi("98");
+    printf("%d\n", nb);
+    nb = _atoi("-402");
+    printf("%d\n", nb);
+    nb = _atoi("          ------++++++-----+++++--98");
+    printf("%d\n", nb);
+    nb = _atoi("214748364");
+    printf("%d\n", nb);
+    nb = _atoi("0");
+    printf("%d\n", nb);
+    nb = _atoi("Suite 402");
+    printf("%d\n", nb);
+    nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
+    printf("%d\n", nb);
+    nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
+    printf("%d\n", nb);
+    return (0);
 }
