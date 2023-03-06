@@ -1,1 +1,1 @@
-bnsbcsmabcsmd
+pointer and array string
