@@ -1,1 +1,1 @@
-dutrr
+static library
