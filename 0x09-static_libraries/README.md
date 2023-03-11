@@ -1,1 +1,1 @@
-static library
+ivnbvhghic library
