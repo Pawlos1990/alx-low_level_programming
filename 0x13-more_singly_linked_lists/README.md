@@ -1,1 +1,1 @@
-old school
+ more linked list
